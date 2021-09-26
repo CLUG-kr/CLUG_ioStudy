@@ -10,12 +10,12 @@ var someAny: Any = 100
 someAny = "어떤 타입도 수용 가능하다."
 someAny = 123.45
 
-// let someDouble: Double = someAny  // ERROR
+let someDouble: Double = someAny  // ERROR
 
 
 // MARK - AnyObject
 class SomeClass {}
-var someAnyObject: AnyObject = someClass()
+var someAnyObject: AnyObject = SomeClass()
 
 // someAnyObject = 123.45  // ERROR
 

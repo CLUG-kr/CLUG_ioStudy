@@ -1,6 +1,6 @@
 /* 기본 data type */
 
-import UIKit
+// import UIKit
 
 // Swift 의 기본 data type
 // Bool, Int, UInt, Float, Double, Character, String
@@ -12,10 +12,10 @@ someBool = false
 
 
 // Int
-var someInt: Int = -100
+var someInt: Int = 100
 
 // UInt: Unsigned Int 
-var someUInt: UInt = -100
+var someUInt: UInt = 100
 
 // Float
 var someFloat: Float = 3.14
